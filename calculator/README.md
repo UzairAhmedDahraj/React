@@ -69,7 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### `Simple React IOS Themed Calculator` -Uzair Ahmed Dahraj
+Simple React IOS Themed Calculator - Uzair Ahmed Dahraj
 View The Output Screenshot Attached, For Preview. 
 ![React Calculator](https://github.com/user-attachments/assets/62eaab8a-6c7c-4629-abd6-656b97d83704)
 
