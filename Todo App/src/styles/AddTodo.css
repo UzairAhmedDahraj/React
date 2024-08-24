@@ -1,69 +1,78 @@
-.todo-Form {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-    max-width: 400px;
-    margin: 20px auto;
-    display: flex;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-  }
-  
-  .todo-Input {
-    flex-grow: 1;
-    padding: 15px;
-    font-size: 17px;
-    border: none;
-    outline: none;
-    color: #000000;
-  }
-  
-  .todo-Input::placeholder {
-    color: #8e8e93;
-  }
-  
-  .todo-Btn {
-    padding: 15px 20px;
-    font-size: 17px;
-    font-weight: 600;
-    background-color: #007aff;
-    color: #ffffff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .todo-Btn:hover {
-    background-color: #0056b3;
-  }
-  
-  .todo-Btn:active {
-    background-color: #004080;
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    .todo-Form {
+.todo-form {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.todo-input {
+  flex-grow: 1;
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: #000000;
+}
+
+.todo-input::placeholder {
+  color: #8e8e93;
+}
+
+.add-todo-btn {
+  padding: 15px 20px;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #007aff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-todo-btn:disabled {
+  background-color: #d3d3d3; /* Gray color when disabled */
+  color: #a9a9a9; /* Gray text */
+  cursor: not-allowed; /* Not allowed cursor */
+}
+
+.add-todo-btn:hover:enabled {
+  background-color: #0056b3;
+}
+
+.add-todo-btn:active:enabled {
+  background-color: #004080;
+}
+
+.error-message {
+  color: #ff3b30;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .todo-form {
       background-color: #1c1c1e;
-    }
-  
-    .todo-Input {
+  }
+
+  .todo-input {
       color: #ffffff;
       background-color: #1c1c1e;
-    }
-  
-    .todo-Input::placeholder {
-      color: #8e8e93;
-    }
-  
-    .todo-Btn {
-      background-color: #0a84ff;
-    }
-  
-    .todo-Btn:hover {
-      background-color: #0066cc;
-    }
-  
-    .todo-Btn:active {
-      background-color: #004c99;
-    }
   }
+
+  .add-todo-btn {
+      background-color: #0a84ff;
+  }
+
+  .add-todo-btn:disabled {
+      background-color: #333333; /* Dark gray when disabled */
+      color: #666666; /* Dark gray text */
+  }
+
+  .error-message {
+      color: #ff453a;
+  }
+}
