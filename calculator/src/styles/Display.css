@@ -1,0 +1,15 @@
+.display {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-align: right;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: calc(36px - (2px * var(--digit-count)));
+    transition: font-size 0.3s ease;
+  }

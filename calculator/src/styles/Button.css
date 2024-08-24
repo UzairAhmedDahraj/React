@@ -1,0 +1,35 @@
+.Button {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    border: none;
+    background-color: #f2f2f7;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .Button:active {
+    background-color: #d1d1d6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .Button.number {
+    background-color: #ffffff;
+  }
+  
+  .Button.operator {
+    background-color: #ff9500;
+    color: white;
+  }
+  
+  .Button.function {
+    background-color: #a6a6a6;
+    color: white;
+  }
+  
