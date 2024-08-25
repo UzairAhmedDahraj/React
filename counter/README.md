@@ -4,7 +4,9 @@ The Counter App is a simple React application that allows users to increment, de
 
 ## Features
 Increment the counter by 1.
+
 Decrement the counter by 1.
+
 Reset the counter to 0.
 
 ## Concepts Learned
