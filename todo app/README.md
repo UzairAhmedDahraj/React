@@ -12,5 +12,6 @@ A simple Todo List application built with React. Manage your tasks with features
 ### Simple React Themed Todo Application - Uzair Ahmed Dahraj
 View The Output Screenshot Attached, For Preview.
 
-
-![Preview](https://github.com/user-attachments/assets/272f3739-f025-467d-8ed0-34e03f5f6499)
+<p align=center>
+<img src="https://github.com/user-attachments/assets/272f3739-f025-467d-8ed0-34e03f5f6499"/>
+</p>
