@@ -17,4 +17,6 @@ Conditional Rendering and Dynamic Class Names: Applying dynamic classes based on
 ## Simple React Themed Counter Application - Uzair Ahmed Dahraj
 View The Output Screenshot Attached, For Preview.
 
-![React Counter](https://github.com/user-attachments/assets/abffbd34-4936-413a-ae1b-33c1d21f341a)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/abffbd34-4936-413a-ae1b-33c1d21f341a" />
+</p>
