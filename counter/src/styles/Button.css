@@ -1,0 +1,37 @@
+.Button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    background-color: #007AFF;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .Button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Button:active {
+    background-color: #004080;
+  }
+  
+  .Button.Reset {
+    background-color: #FF3B30;
+  }
+  
+  .Button.Reset:hover {
+    background-color: #D63026;
+  }
+  
+  .Button.Reset:active {
+    background-color: #B2271F;
+  }
