@@ -9,9 +9,13 @@ Reset the counter to 0.
 
 ## Concepts Learned
 React Components: Building reusable components like Button and Counter.
+
 State Management: Using the useState hook to manage and update the counter's state.
+
 Event Handling: Handling user interactions such as button clicks with functions passed as props.
+
 Prop Types: Using PropTypes to ensure that the correct data types are passed to components.
+
 Conditional Rendering and Dynamic Class Names: Applying dynamic classes based on component props and rendering content conditionally.
 
 ## Simple React Themed Counter Application - Uzair Ahmed Dahraj
