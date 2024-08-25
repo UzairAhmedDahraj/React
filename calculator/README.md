@@ -31,6 +31,6 @@ Dynamic Class Names and Styling: Applying CSS classes dynamically to buttons and
 View The Output Screenshot Attached, For Preview. 
 
 <p align=center>
-![React Calculator](https://github.com/user-attachments/assets/62eaab8a-6c7c-4629-abd6-656b97d83704)
+<img src="https://github.com/user-attachments/assets/62eaab8a-6c7c-4629-abd6-656b97d83704">
 </p>
 
