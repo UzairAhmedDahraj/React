@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive weather application built with React, utilizing the Meteo Weather API and OpenCage Geolocation API.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
+- [API Keys](#api-keys)
+- [Concepts Learned](#concepts-learned)
+- [Future Improvements](#future-improvements)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This Weather App allows users to search for any city worldwide and view its current weather conditions. It provides a sleek, user-friendly interface with real-time weather data and location search functionality.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- City search with autocomplete suggestions
+- Display of current temperature, rain status, and wind speed
+- Dynamic weather icons (day/night)
+- Responsive design for various screen sizes
+- Smooth animations for enhanced user experience
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- React.js
+- Tailwind CSS
+- Meteo Weather API
+- OpenCage Geolocation API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Type a city name in the search bar.
+2. Select a city from the autocomplete suggestions.
+3. View the current weather information for the selected city.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## API Keys
 
-### `npm run eject`
+To run this project, you'll need to sign up for a free API key from OpenCage :
+- [OpenCage](https://opencagedata.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Concepts Learned
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React Hooks (useState, useEffect) for state management and side effects
+- Integrating and working with external APIs (Meteo Weather and OpenCage)
+- Implementing a responsive design using Tailwind CSS
+- Creating custom animations with Tailwind and CSS
+- Building a search component with autocomplete functionality
+- Error handling and loading states in React applications
+- Using environment variables to secure API keys
+- Creating reusable React components (Weather, Search)
+- Implementing a modern UI/UX design
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+Developed by Uzair Ahmed Dahraj
+<p align=center>
+<img src="https://github.com/user-attachments/assets/7e724f02-b28a-4997-a3eb-58f6a2f69549"/>
+</p>
