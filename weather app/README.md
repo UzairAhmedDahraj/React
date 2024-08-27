@@ -11,7 +11,6 @@ A modern, responsive weather application built with React, utilizing the Meteo W
 - [API Keys](#api-keys)
 - [Concepts Learned](#concepts-learned)
 - [Future Improvements](#future-improvements)
-- [Author](#author)
 
 ## Overview
 
@@ -55,8 +54,8 @@ To run this project, you'll need to sign up for a free API key from OpenCage :
 - Creating reusable React components (Weather, Search)
 - Implementing a modern UI/UX design
 
-## Author
-Developed by Uzair Ahmed Dahraj
+### Simple React Themed Weather Application - Uzair Ahmed Dahraj
+View The Output Screenshot Attached, For Preview.
 <p align=center>
 <img src="https://github.com/user-attachments/assets/7e724f02-b28a-4997-a3eb-58f6a2f69549"/>
 </p>
